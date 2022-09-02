@@ -1,7 +1,7 @@
 import math
 from line_log import get_logger
 
-lg = get_logger(name="(line Comparsion_Finding Equality)", file_name="line_log")
+lg = get_logger(name="(line Comparsion_Comparison)", file_name="line_log")
 
 
 class LineComparison:
@@ -43,6 +43,7 @@ if __name__ == '__main__':
         except Exception as e:
             lg.error(e)
 
+
     print("Enter X,Y Co_Ordinates of the line 1:\n")
     line_one = add_line().calculate_length()
     lg.info(line_one)
@@ -50,8 +51,7 @@ if __name__ == '__main__':
     line_two = add_line().calculate_length()
     lg.info(line_two)
 
-    lg.debug("Both line length are equal" if line_one == line_two else
-          "Both line length are not equal")
-
-
-
+    list_comp = [
+        "line one is greater than line two" if line_one > line_two else "line one is lesser than line two"
+        if line_one < line_two else "both line are equal"]
+    lg.debug(list_comp)

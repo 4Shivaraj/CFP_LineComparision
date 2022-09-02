@@ -4,3 +4,9 @@
 2022-09-02 21:10:30,915 (line Comparsion_Finding Equality) DEBUG Length of value is: 3.605551275463989
 2022-09-02 21:10:30,915 (line Comparsion_Finding Equality) INFO 3.605551275463989
 2022-09-02 21:10:30,916 (line Comparsion_Finding Equality) DEBUG Both line length are not equal
+
+2022-09-02 21:42:08,336 (line Comparsion_Comparison) DEBUG Length of value is: 2.8284271247461903
+2022-09-02 21:42:08,336 (line Comparsion_Comparison) INFO 2.8284271247461903
+2022-09-02 21:42:14,966 (line Comparsion_Comparison) DEBUG Length of value is: 5.656854249492381
+2022-09-02 21:42:14,966 (line Comparsion_Comparison) INFO 5.656854249492381
+2022-09-02 21:42:14,966 (line Comparsion_Comparison) DEBUG ['line one is lesser than line two']
