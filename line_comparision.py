@@ -1,7 +1,7 @@
 import math
 from line_log import get_logger
 
-lg = get_logger(name="(line Comparsion_Finding Length)", file_name="line_log")
+lg = get_logger(name="(line Comparsion_Finding Equality)", file_name="line_log")
 
 
 class LineComparison:
